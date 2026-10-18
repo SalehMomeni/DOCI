@@ -145,3 +145,15 @@ Results are written to `logs/<model_name>/<task>/`:
 ## Acknowledgements
 
 The environments, scripted policies and data tooling in `metaworld/` are adapted from [Meta-World](https://github.com/Farama-Foundation/Metaworld) (MIT license).
+
+## Citation
+If you find this repository useful, please consider citing our paper:
+
+```
+@inproceedings{momeni2026doci,
+  title={DOCI: Deployment-Time Online Imitation Learning from Corrective Demonstrations},
+  author={Saleh Momeni and Bing Liu},
+  booktitle={Proceedings of The Fortieth Annual Conference on Neural Information Processing Systems},
+  year={2026}
+}
+```
