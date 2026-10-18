@@ -1,0 +1,11 @@
+python run.py \
+  --model_name doci \
+  --tasks box-close-v2,hand-insert-v2,pick-place-v2,push-v2,shelf-place-v2,handle-pull-v2 \
+  --horizons 175,100,100,100,200,200 \
+  --eval_episodes 200 \
+  --steps 5 \
+  --demos_per_step 5 \
+  --eval_seed 42 \
+  --collect_seed 123 \
+  --dataset_root plex_data \
+  --log_dir logs
